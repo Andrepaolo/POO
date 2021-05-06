@@ -1,11 +1,14 @@
-class Artefactos:
-	def__init__(self, nombre, funca, mododeuso, modelo):
+class Muebles:
+	def __init__(self, nombre, material, uso, piezas):
 		self.nombre= nombre
-		self.funca=funca
-		self.mododeuso=mododeuso
-		self.modelo=modelo
+		self.material=material
+		self.uso=uso
+		self.piezas=piezas
 	def atributo()
-		return f'El/la {self.nombre}, funciona con {self.funca}, es de uso {self.funca} y su modelo es {self.modelo}'
-Horno = Artefactos('Horno','gas','manual','artesanal')
-Maquinadecoser = Artefactos('Maquinadecoser','electricidad','manual','Precious 590')
-Freidoradeaire= Artefactos('Freidoradeaire','electricidad','automatico','Oster2020')
+		return f'El/la {self.nombre}, esta hecho de {self.material}, tiene la finalidad de {self.uso} y cosnta de {self.piezas} pieza(s)'
+Repostero = Muebles('Repostero','melamina','almacenar', 2 )
+Barra = Muebles('Barra','madera balsa','decoración',1)
+Sillon= Muebles('Sillon','madera y espuma','descanso',4)
+1.- clase7/holaMundo/main/hola_mundo.py
+ 2.- clase7/holaMundo/main/main.py
+ 3.- clase7/holaMundo/demo.py

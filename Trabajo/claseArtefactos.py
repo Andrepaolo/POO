@@ -9,6 +9,6 @@ class Artefacto:
 Horno= Artefacto('Horno','gas','manual','artesanal')
 Maquinadecoser = Artefacto('Maquinadecoser','electricidad','manual','Precious 590')
 Freidoradeaire= Artefacto('Freidoradeaire','electricidad','automatico','Oster2020')
-print(Horno.decir)
+
 
 
