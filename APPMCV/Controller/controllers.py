@@ -11,5 +11,5 @@ class Controller():
     def btnHandler(self,event):
         self.action()
     def action(self):
-        self.view.ViewPanel; entry.insert(self.model.saludar())
+        self.view.ViewPanel.entry.insert(self.model.saludar())
         
