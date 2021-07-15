@@ -4,3 +4,4 @@ class Model():
         self.res="Hola Mundo"
     def saludar (self):
         return self.res    
+    
